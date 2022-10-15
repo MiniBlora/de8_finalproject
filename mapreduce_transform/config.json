@@ -1,0 +1,25 @@
+{
+    "postgresql":{
+        "host":"172.20.87.112",
+        "db":"postgres",
+        "user":"postgres",
+        "pwd":"postgres",
+        "port":5432
+    },
+    
+    "warehouse":{
+        "host":"172.20.87.112",
+        "db":"dwh_digitalskola",
+        "user":"postgres",
+        "pwd":"postgres",
+        "port":5432
+    },
+
+    "hadoop":{
+        "client":"http://172.20.87.112:9870"
+    },
+
+    "spark":{
+        "ip":"spark://HPG732-010.kpk.go.id:7077"
+    }
+}
